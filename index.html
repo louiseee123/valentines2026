@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My bibi labidabsss,</h1>
+            <div class="heart-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <img src="https://media.giphy.com/media/26BRv0ThflsHCqDrG/giphy.gif" alt="Cute Floating Hearts" class="floating-gif">
+        </header>
+        
+        <main>
+            <section class="message-section">
+                <div class="message-container">
+                    <p class="message-text">
+                       Hii, pangga nako! I just wanted to take this moment to tell you how much you mean to me. Palangga jud kaayo tika, and that will never change. Even though makalagot ko at times:((, nga masuko ka nako:((.I'm really sorry for those moments, but I want you to know that my love for you
+                       is dili magbag-o magkinaunsa man. Palangga jud kaayo tika, bibi nako, more than yesterday, less than tomorrow. Even though we're part apart, that doesn't mean nga we're not going to celebrate this wonderful occasion together.
+                       I want to make this Valentine's Day special for you, to show you how much I care and how grateful I am to have you in my life, pangga nako.
+                    </p>
+                    
+                    <p class="message-text">
+                        I love you more than yesterday, but less than tomorrow. Happy Valentine's Day, my love!
+                        
+                    </p>
+
+                    <div class="interactive-heart">
+                        <div class="heart-shape" id="mainHeart">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <p class="heart-instruction">Click the heart!</p>
+                    </div>
+                    
+                    <div class="valentine-question">
+                        <h2 id="valentineQuestion">Will you be my Valentine?</h2>
+                     <p2 class="question-instruction">Choose your answer: (pls pick yes:)))))</p2>
+                        <div class="response-buttons">
+                            <button class="response-btn yes-btn" id="yesBtn">Yes!</button>
+                            <button class="response-btn no-btn" id="noBtn">Maybe? (di niya ko love)</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="countdown-section">
+                <h3><i class="fas fa-clock"></i> Countdown to Valentine's Day</h3>
+                <div class="countdown-container">
+                    <div class="countdown-box">
+                        <span id="days">0</span>
+                        <p>Days</p>
+                    </div>
+                    <div class="countdown-box">
+                        <span id="hours">0</span>
+                        <p>Hours</p>
+                    </div>
+                    <div class="countdown-box">
+                        <span id="minutes">0</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="countdown-box">
+                        <span id="seconds">0</span>
+                        <p>Seconds</p>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="hearts-container" id="heartsContainer"></div>
+        </main>
+        
+        <footer>
+            <p>Made with <i class="fas fa-heart beat"></i> for my labidabsss! </p>
+        </footer>
+    </div>
+    
+    <audio id="romanticMusic" preload="auto">
+        <source src="https://www.soundjay.com/misc/sounds/romantic-music-01.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
